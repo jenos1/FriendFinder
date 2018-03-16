@@ -8,6 +8,10 @@ The "Friend Finder" application is a type of dating application. It takes in res
 * Express
 * Node.js
 * Heroku 
+* npm modules:
+  * express
+  * body-parser
+  * path
 
 ## Contributors
 * JoAnn Enos

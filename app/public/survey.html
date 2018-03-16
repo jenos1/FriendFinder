@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Doppio+One" rel="stylesheet">
+</head>
+<body>
+    <!--Jumbotron-->
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Questionnaire</h1>
+                <p>Please answer the following questions.</p>
+            </div>
+        </div>
+    </div>
+    <!--End of Jumbotron-->
+    <div class="container"id="questions">
+        <h2>Survey Questions</h2>
+        <hr>
+        <h3><strong>About You</strong></h3>
+        <h5>Name (Required)</h5>
+        <input type="text" id="name" class="form-control" required>
+        <h5>Link to Photo Image (Required)</h5>
+        <input type="text" id="photo" class="form-control" required>
+        <br>
+        <h3><strong>Question 1</strong></h3>
+        <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+        <select class="chosen-options" id="q1">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+        <br> <br>
+        <h3><strong>Question 2</strong></h3>
+        <h5>Generally speaking, you rely more on your experience than your imagination.</h5>
+        <select class="chosen-options" id="q2">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="5">5 (Strongly Agree)</option>
+        </select>
+
+        <br> <br>
+        <h3><strong>Question 3</strong></h3>
+        <h5>You find it easy to stay relaxed and focused even when there is some pressure.</h5>
+        <select class="chosen-options" id="q3">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>
+
+        <br> <br>
+        <h3><strong>Question 4</strong></h3>
+        <h5>You rarely do something just out of sheer curiosity.</h5>
+        <select class="chosen-options" id="q4">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>
+
+        <br> <br>
+        <h3><strong>Question 5</strong></h3>
+        <h5>People can rarely upset you.</h5>
+        <select class="chosen-options" id="q5">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>
+
+        <br> <br>
+        <h3><strong>Question 6</strong></h3>
+        <h5>It is often difficult for you to relate to other people’s feelings.</h5>
+        <select class="chosen-options" id="q6">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>
+
+        <br> <br>
+        <h3><strong>Question 7</strong></h3>
+        <h5>In a discussion, truth should be more important than people’s sensitivities.</h5>
+        <select class="chosen-options" id="q7">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>   
+        
+        <br> <br>
+        <h3><strong>Question 8</strong></h3>
+        <h5>You enjoy the outdoors.</h5>
+        <select class="chosen-options" id="q8">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>  
+
+        <br> <br>
+        <h3><strong>Question 9</strong></h3>
+        <h5>You generally enjoy working with people from different backgrounds.</h5>
+        <select class="chosen-options" id="q9">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>  
+
+        <br> <br>
+        <h3><strong>Question 10</strong></h3>
+        <h5>You feel more energetic after spending time with a group of people.</h5>
+        <select class="chosen-options" id="q10">
+            <option value>Select an Option </option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2 </option>
+            <option value="3">3 </option>
+            <option value="4">4 </option>
+            <option value="4">5 (Strongly Agree)</option>
+        </select>  
+        <br> 
+        <button type="button" class="btn btn-dark btn-lg btn-block"id="submit">Submit</button>
+        <hr>
+    </div>
+    <!--modal start-->
+    <div class="modal fade" id="survey-results" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="mod-title">Best Match for you: </h5>
+                    <button type="button" class="close" data-dismiss="modal">x</button> 
+                </div>
+                <div class="modal-body">
+                    <h5 id="match-name"></h5>
+                    <img id="match-img" src="" alt>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--modal end-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="./assets/survey.js"></script>
+</body>
+
+</html>

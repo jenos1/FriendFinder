@@ -1,0 +1,26 @@
+
+h1 {
+  font-size: 50px;
+  color: orange;
+}
+h4 {
+ text-indent: 15px;
+ font-size: 30px;
+ color: orange;
+}
+.jumbotron p {
+  padding-top: 39px;
+  font-size: 25px;
+  color: white;
+}
+.jumbotron {
+  background:url(images/guitar.jpeg);
+  font-family: 'Doppio One', sans-serif;
+}
+button {
+  margin-top: 40px;
+}
+
+footer a { background-color: #93291b; border: 1px solid #333333; border-radius: 3px 3px 3px 3px; box-shadow: 0 0 1px #93291b inset; color: #f5f5f5; padding: 5px; }
+
+/* Questionnaire */
