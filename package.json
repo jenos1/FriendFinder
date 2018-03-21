@@ -2,7 +2,7 @@
   "name": "FriendFinder",
   "version": "1.0.0",
   "description": "The \"Friend Finder\" application is a type of dating application. It takes in results from a user survey and compares their answers with those of other users. It then displays the name and picture of the user with the best overall match.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./app/server.js"
